@@ -1,4 +1,4 @@
-# Engineering documentation/ Red Machine Team
+# Documentacion de Ingenieria/ Equipo Red Machine
 
 Este repositorio contiene todos los materiales necesarios para fabricar «Julian» El robot autodirigido creado por el equipo «Red Machine», que participará en la categoría de Futuros Ingenieros en la WRO de Venezuela en la temporada de 2024.
 
@@ -16,16 +16,16 @@ Este repositorio contiene todos los materiales necesarios para fabricar «Julian
 ![red machine team pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/b7eeb760-babc-4338-b1a4-e9a426606d17)
 
    
-# Introduction
+# Introduccion
 Nos hemos esforzado al máximo para hacer el mejor robot posible. Ha sido un camino muy largo y nos ha ayudado mucho aprender programación, mecánica y diseño. Después de mucho pensar y analizar hemos creado nuestra propia estrategia basada en los componentes electrónicos que teníamos, creyendo fervientemente que tendrá un buen rendimiento en esta edición de la WRO.
 
-# Mechanical Design
+# Diseño Mecanico
 El diseño del robot ha sido uno de los mayores problemas a los que nos hemos enfrentado en todas las fases de la competición. Las bases acrilicas que utilizamos en las competiciones anteriores no funcionaron, ya que tenian muchas imperfecciones, provocando que el sistema de traccion y direccion estuviera mal ubicado, asi como una distribucion de pesos realmente mala. A pesar de todo esto, ese chasis nos dio una idea de como diseñar uno nuevo, asi que despues de la competicion nacional del 2023, decidimos hacer un corte con laser a bases acrilicas nuevas. Después de esto, el chasis quedó realmente bien en todos los aspectos. 
 Además, cambiamos las ruedas del robot por unas nuevas que se sujetaran mejor al sistema de dirección, lo que también proporcionó una mejor estética al robot.
 
 ![bases de acrilico pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/1ab2bf5b-492d-4d9f-b8cb-7154f9053f9f)
 
-# Strategy
+# Estrategia
 En esta parte del proceso, empezamos a hacer del prototipo un robot propiamente dicho, conectando todos los componentes electrónicos y empezamos a codificar para completar el primer reto y empezar a ganar nuestros primeros 30 puntos. Los componentes que utilizamos para completar este reto fueron:
 
  Arduino Mega 2560: Una placa de desarrollo de código abierto construida con un microcontrolador y señales de entrada y salida, responsable de activar y desactivar determinados componentes.
