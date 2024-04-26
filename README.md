@@ -3,7 +3,7 @@
 This repository contains all the materials required to make "Julian" The self-driven robot created by the team "Red Machine", that will participate in the category of Future Engineers at WRO in Panama on the 2023 season. 
 
 
- ![julian mirando derecha 2](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a38632b7-3a61-49c0-ad2c-fa2d83c2da71)
+![julian 2024](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/85cb1149-404d-40af-82c5-be7ef2e1914a)
 
  
 # Red Machine Members
@@ -44,7 +44,7 @@ Mega 2560 we can determine the distance based on the time it takes for the wave 
 
 TCS34725 color sensor: it is a sensor responsible for detecting colors in R G B C format, these being Red (R) Green (G) Blue (B) Clear (C) where it allows calculating the intensity of the colors and thus transmitting them to the Arduino Mega in a number from 0 to 65535 to associate them with the corresponding colors, allowing you to determine the colors present on the court, to decide which side to turn to.
 
-![rgb sensor pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/82128139-e35c-4e55-8477-f4b4c398e678)
+![tcs 3200 pequeño](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/d7da1967-9bac-4a97-92d8-da8f17152f6b)
 
 Rev Robotics servo motor: An electric motor with an integrated position feedback sensor, which allows perfect angled movements to be made, using a signal that ranges from 0V to 5V, where each value that the voltage may have represents an exact angle, fulfilling with excellence the function of making the turns
 
