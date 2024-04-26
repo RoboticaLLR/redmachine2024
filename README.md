@@ -1,12 +1,12 @@
 # Engineering documentation/ Red Machine Team
 
-This repository contains all the materials required to make "Julian" The self-driven robot created by the team "Red Machine", that will participate in the category of Future Engineers at WRO in Panama on the 2023 season. 
+Este repositorio contiene todos los materiales necesarios para fabricar «Julian» El robot autodirigido creado por el equipo «Red Machine», que participará en la categoría de Futuros Ingenieros en la WRO de Venezuela en la temporada de 2024.
 
 
 ![julian 2024](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/85cb1149-404d-40af-82c5-be7ef2e1914a)
 
  
-# Red Machine Members
+# Miembros del equipo Red Machine
 -Samuel Jose Galban Franco
 
 -Juan Diego Cano Barros
@@ -17,46 +17,44 @@ This repository contains all the materials required to make "Julian" The self-dr
 
    
 # Introduction
-We have made our biggest effort to do the best robot we can. This has been a really long road and it helped us a lot to learn programming, mechanicals, and design. After a lot of thinking and analyzing we created out our own strategy based on the electronic components we had, fervently believing that it will have a good performance in this edition of the WRO.
+Nos hemos esforzado al máximo para hacer el mejor robot posible. Ha sido un camino muy largo y nos ha ayudado mucho aprender programación, mecánica y diseño. Después de mucho pensar y analizar hemos creado nuestra propia estrategia basada en los componentes electrónicos que teníamos, creyendo fervientemente que tendrá un buen rendimiento en esta edición de la WRO.
 
 # Mechanical Design
-The robot design was one of the biggest problems we have faced in all the competition stages. The acrylic bases we used on the previous competitions did not work, because they had a lot of imperfections, causing the traccion and direction system to be poorly located, as a really bad weight distribution. Despite all this, that chassis gave us an idea of how to design a new one, so after the national competition, we decided to do a laser cut to brand new acrylic bases. After this, the chassis was really good in all aspects. 
-Besides that, we changed the robot's wheels for new ones that would hold better to the steering system, which also provided better aesthetics to the robot.
+El diseño del robot ha sido uno de los mayores problemas a los que nos hemos enfrentado en todas las fases de la competición. Las bases acrilicas que utilizamos en las competiciones anteriores no funcionaron, ya que tenian muchas imperfecciones, provocando que el sistema de traccion y direccion estuviera mal ubicado, asi como una distribucion de pesos realmente mala. A pesar de todo esto, ese chasis nos dio una idea de como diseñar uno nuevo, asi que despues de la competicion nacional del 2023, decidimos hacer un corte con laser a bases acrilicas nuevas. Después de esto, el chasis quedó realmente bien en todos los aspectos. 
+Además, cambiamos las ruedas del robot por unas nuevas que se sujetaran mejor al sistema de dirección, lo que también proporcionó una mejor estética al robot.
 
 ![bases de acrilico pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/1ab2bf5b-492d-4d9f-b8cb-7154f9053f9f)
 
 # Strategy
-In this part of the process, we started to make the prototype a robot itself, by connecting all the electronic components and started coding to complete the first challenge and start earning our first 30 points. The components we used to complete this challenge were:
+En esta parte del proceso, empezamos a hacer del prototipo un robot propiamente dicho, conectando todos los componentes electrónicos y empezamos a codificar para completar el primer reto y empezar a ganar nuestros primeros 30 puntos. Los componentes que utilizamos para completar este reto fueron:
 
- Arduino Mega 2560: an open-source development board built with a microcontroller, and input and output signals, responsible for enabling and disabling certain components.
+ Arduino Mega 2560: Una placa de desarrollo de código abierto construida con un microcontrolador y señales de entrada y salida, responsable de activar y desactivar determinados componentes.
  
 ![arduino mega 2560 pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/1b59a507-53a0-48d4-b9d8-0b8b94bf1d2d)
 
 
-H-bridge: It is a type of electrical circuit that allows changing the polarity of a DC motor, forward and reverse. The H-Bridge model used is the L298N which allows us to change the speed depending on the voltage sent by the Arduino.
+H-bridge: Es un tipo de circuito eléctrico que permite cambiar la polaridad de un motor de corriente continua, hacia delante y hacia atrás. El modelo de Puente H utilizado es el L298N que nos permite cambiar la velocidad en función de la tensión enviada por el Arduino.
 
 ![puente H pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/264757f2-118f-42c9-9dd8-2a3c91455834)
 
-Ultrasonic sensor: It is a sensor that uses ultrasonic sounds to detect the bounce time of the sound back and forth. Using the Arduino
-Mega 2560 we can determine the distance based on the time it takes for the wave to return, performing the function of determining when there is a wall nearby, and thus making the corresponding turn.
+Ultrasonic sensor:Se trata de un sensor que utiliza sonidos ultrasónicos para detectar el tiempo de rebote del sonido de un lado a otro. Utilizando el Arduino Mega 2560 podemos determinar la distancia en base al tiempo que tarda la onda en volver, realizando la función de determinar cuando hay una pared cerca, y así realizar el giro correspondiente.
 
 ![ultrasonido pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/e8f17278-35e8-451b-9eb3-8465666ceec9)
 
-TCS34725 color sensor: it is a sensor responsible for detecting colors in R G B C format, these being Red (R) Green (G) Blue (B) Clear (C) where it allows calculating the intensity of the colors and thus transmitting them to the Arduino Mega in a number from 0 to 65535 to associate them with the corresponding colors, allowing you to determine the colors present on the court, to decide which side to turn to.
+TCS3200 color sensor:Es un sensor encargado de detectar colores en formato R G B C, siendo estos Rojo (R) Verde (G) Azul (B) Claro (C) donde permite calcular la intensidad de los colores y así transmitirlos al Arduino Mega en un número de 0 a 25 para asociarlos con los colores correspondientes, permitiendo determinar los colores presentes en la cancha, para decidir hacia que lado girar.
 
 ![tcs 3200 pequeño](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/d7da1967-9bac-4a97-92d8-da8f17152f6b)
 
-Rev Robotics servo motor: An electric motor with an integrated position feedback sensor, which allows perfect angled movements to be made, using a signal that ranges from 0V to 5V, where each value that the voltage may have represents an exact angle, fulfilling with excellence the function of making the turns
+Rev Robotics servo motor: Un motor eléctrico con un sensor de realimentación de posición integrado, que permite realizar movimientos angulares perfectos, utilizando una señal que va de 0V a 5V, donde cada valor que pueda tener la tensión representa un ángulo exacto, cumpliendo con excelencia la función de realizar los giros
 
 ![servo pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/57aaa91d-b5e5-4360-aef2-06025d15f8b0)
 
-Electric motor: a device that converts electrical energy into mechanical movement, allowing in this case to move a gearbox and mobilize the wheels. The speed and torque it has are determined by the voltage sent by the H-bridge, being moderated by the Arduino.
+Electric motor:un dispositivo que convierte la energía eléctrica en movimiento mecánico, permitiendo en este caso mover una caja de cambios y movilizar las ruedas. La velocidad y el par que tiene vienen determinados por la tensión enviada por el puente en H, siendo moderada por el Arduino.
 
 ![motor pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a74aacac-0276-49b0-abc1-485906c2a775)
 
 
-The Arduino is powered by a 9v battery, which is turned on by a switch, and is responsible for powering and giving respective signals to the servomotor, so it will be able to make the crossings effectively with ease, and also energize and receive the signals. the sensors, such as the ultrasound that sends and receives the signals to calculate the respective time, and with it, the distance to a certain obstacle, are also connected by serial to the color sensor, to receive the exact values ​​in RGBC
+El Arduino está alimentado por una pila de 9v, que se enciende mediante un interruptor, y es el encargado de alimentar y dar las respectivas señales al servomotor, para que sea capaz de realizar los cruces de forma efectiva con facilidad, además de energizar y recibir las señales. los sensores, como el ultrasonido que envía y recibe las señales para calcular el tiempo respectivo, y con ello, la distancia a un determinado o El Arduino está alimentado por una pila de 9v, que se enciende mediante un interruptor, y es el encargado de alimentar y dar las respectivas señales al servomotor, para que sea capaz de realizar los cruces de forma efectiva con facilidad, además de energizar y recibir las señales. los sensores, como el ultrasonido que esquiva obstáculos, también están conectados por serie al sensor de color, para recibir los valores exactos en RGBC
 
-
-Finally, the H bridge is connected and powered by a 3.7 v battery pack and is turned on by the same switch that turns on the Arduino.
-The H-bridge receives signals from the Arduino so it receives digital and analog signals, giving it the ability to move the motor in different directions and speeds. It is also responsible for powering the Esp32-cam through the 5v port.
+Por último, el puente H está conectado y alimentado por una batería de 3,7 v y se enciende con el mismo interruptor que enciende el Arduino.
+El puente H recibe señales del Arduino por lo que recibe señales digitales y analógicas, dándole la capacidad de mover el motor en diferentes direcciones y velocidades. También es el encargado de alimentar la Esp32-cam a través del puerto de 5v.
