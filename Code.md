@@ -1,19 +1,19 @@
 # Diseno de Software
 
 1. Analisis de imagen
-    i.   [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Obtencion-de-imagen)
-    ii.  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Filtro-de-imagen)
-    iii. [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
-    iv.  [Imagen gris con detalles rojos y verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Imagen-gris-con-detalles-rojos-y-verdes)
-    v.   [Deteccion de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion-de-color)
-    vi.  [Procesamiento de lugar y distancia de los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Procesamiento-de-distancia)
-    vii. [Envio de data al Arduino Mega 2560](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Envio-de-data-al-Arduino)
+    -  [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Obtencion-de-imagen)
+    -  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Filtro-de-imagen)
+    - [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
+    -  [Imagen gris con detalles rojos y verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Imagen-gris-con-detalles-rojos-y-verdes)
+    -   [Deteccion de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion-de-color)
+    -  [Procesamiento de lugar y distancia de los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Procesamiento-de-distancia)
+    - [Envio de data al Arduino Mega 2560](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Envio-de-data-al-Arduino)
 2. [Movimiento del Robot]
-    i.   [Inicio del ServoMotor y el motor](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Establecimiento-del-Servo-Motor)
-    ii.  [Movimiento en funcion a los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-los-conos)
-        ii.1 [determinacion del carril 1 o 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Determinacion-del-carril-1-o-2)
-    iii. [Deteccion de la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion)
-    iv.  [Movimiento en funcion a la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-la-orientacion)
+    -   [Inicio del ServoMotor y el motor](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Establecimiento-del-Servo-Motor)
+    -  [Movimiento en funcion a los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-los-conos)
+        - [determinacion del carril 1 o 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Determinacion-del-carril-1-o-2)
+    - [Deteccion de la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion)
+    -  [Movimiento en funcion a la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-la-orientacion)
 
 # Analisis de imagen
 
@@ -25,6 +25,8 @@ Hacemos uso de la libreria OpenCV para obtener imagenes mediante una webcam. Par
 
 Utilizamos la funcion `cv.cvtColor(frame, cv.COLOR_BGR2HSV)` para cambiar a un formato HSV, donde se hace mucho mas facil detectar rojo y verde
 
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/b23b6ee3-f1e1-4f56-aaf6-82057ce30cf3)
+
 ## Creacion de las mascaras Rojas y Verdes
 
 Creamos un array con ayuda de numpy con el siguiente comando `np.array([0, 140, 20], np.uint8)` donde establecemos los valores de HSV de rojo y verde en 4 valores distintos
@@ -32,6 +34,15 @@ Creamos un array con ayuda de numpy con el siguiente comando `np.array([0, 140, 
 ## Imagen gris con detalles rojos y verdes
 
 Creamos una mascara usando los comandos `mask = cv2.inRange()` donde haciendo uso de los comandos de `redDetected = cv2.bitwise_and()` y de `redDetected = cv2.bitwise()` donde creamos un array de numpy donde observamos una imagen gris solamente permitiendo sobreponerse a la mascara lo que se encuentra dentro de lo considerado rojo y verde
+### Deteccion de rojo
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/98cb1671-d84c-46fd-a052-980c281f55c7)
+### Deteccion de verde
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/0739192a-de88-43f7-b07b-03a33113c629)
+### COmbinacion y coloracion
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/106ef0f8-027b-4afb-b935-1fe8659725b6)
+
+
+
 
 ## Deteccion de color
 

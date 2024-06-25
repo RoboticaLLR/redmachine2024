@@ -43,28 +43,40 @@ Otro cambio muy importante fue rediseñar el sistema de dirección, el cual fue 
 ![sistema direccion2](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/9d33071c-ba41-47bc-8b42-ef2623d5b0dd)
 
 
-Nuevamente se utilizó el mismo motor y ruedas para la construcción del sistema de tracción. 
-"foto"
+De misma manera se hizo un diseno 3D, donde podiamos ver ya analizar de forma eficiente todo lo relativo hacia el robot.
+### derecha
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/0364d856-0c1f-4acb-b7b7-736befe48c29)
+### adelante
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/2e0cb5f8-766f-4ef3-ac54-ce97839b3b43)
+### derecha
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/60cefae2-e63a-47f8-9d52-f64e386c134e)
+### atras
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/de874051-7a95-4c22-b036-3004a4ecf061)
+### arriba
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/825a1b6c-bec4-4b58-83b7-381921703ff1)
+### abajo
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/ad9235b4-6f95-4a00-a3c7-1abaec18f783)
+
+
 
 
 
 # Diseno de Software
 
 1. Analisis de imagen
-    i.   [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Obtencion-de-imagen)
-    ii.  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Filtro-de-imagen)
-    iii. [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
-    iv.  [Imagen gris con detalles rojos y verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Imagen-gris-con-detalles-rojos-y-verdes)
-    v.   [Deteccion de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion-de-color)
-    vi.  [Procesamiento de lugar y distancia de los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Procesamiento-de-distancia)
-    vii. [Envio de data al Arduino Mega 2560](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Envio-de-data-al-Arduino)
+    -  [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Obtencion-de-imagen)
+    -  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Filtro-de-imagen)
+    - [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
+    -  [Imagen gris con detalles rojos y verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Imagen-gris-con-detalles-rojos-y-verdes)
+    -   [Deteccion de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion-de-color)
+    -  [Procesamiento de lugar y distancia de los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Procesamiento-de-distancia)
+    - [Envio de data al Arduino Mega 2560](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Envio-de-data-al-Arduino)
 2. [Movimiento del Robot]
-    i.   [Inicio del ServoMotor y el motor](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Establecimiento-del-Servo-Motor)
-    ii.  [Movimiento en funcion a los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-los-conos)
-        ii.1 [determinacion del carril 1 o 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Determinacion-del-carril-1-o-2)
-    iii. [Deteccion de la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion)
-    iv.  [Movimiento en funcion a la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-la-orientacion)
-
+    -   [Inicio del ServoMotor y el motor](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Establecimiento-del-Servo-Motor)
+    -  [Movimiento en funcion a los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-los-conos)
+        - [determinacion del carril 1 o 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Determinacion-del-carril-1-o-2)
+    - [Deteccion de la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion)
+    -  [Movimiento en funcion a la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-la-orientacion)
 
 ## Subcodigo
 
@@ -80,6 +92,9 @@ Identificacion de conos
 Lectura de paredes
 Giros de paredes
 ```
+
+[!IMPORTANT]
+Cada iteracion de este codigo es de aproximadamente 20ms
 
 
 ## Componentes electronicos
