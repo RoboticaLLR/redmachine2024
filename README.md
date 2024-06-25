@@ -49,11 +49,21 @@ Nuevamente se utilizó el mismo motor y ruedas para la construcción del sistema
 
 
 # Diseno de Software
-En esta parte se establece el diseno del Codigo y la explicacion respectiva dentro de el.
 
-Puedes encontrar [Explicacion del Codigo](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md) dandole click al la palabra en azul.
-
-
+1. Analisis de imagen
+    i.   [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Obtencion-de-imagen)
+    ii.  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Filtro-de-imagen)
+    iii. [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
+    iv.  [Imagen gris con detalles rojos y verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Imagen-gris-con-detalles-rojos-y-verdes)
+    v.   [Deteccion de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion-de-color)
+    vi.  [Procesamiento de lugar y distancia de los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Procesamiento-de-distancia)
+    vii. [Envio de data al Arduino Mega 2560](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Envio-de-data-al-Arduino)
+2. [Movimiento del Robot]
+    i.   [Inicio del ServoMotor y el motor](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Establecimiento-del-Servo-Motor)
+    ii.  [Movimiento en funcion a los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-los-conos)
+        ii.1 [determinacion del carril 1 o 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Determinacion-del-carril-1-o-2)
+    iii. [Deteccion de la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion)
+    iv.  [Movimiento en funcion a la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-la-orientacion)
 
 
 ## Subcodigo
