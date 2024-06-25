@@ -1,11 +1,14 @@
 # Documentacion de Ingenieria/ Equipo Red Machine
 
-Este repositorio contiene todos los materiales necesarios para fabricar «Julian» El robot autodirigido creado por el equipo «Red Machine», que participará en la categoría de Futuros Ingenieros en la WRO de Venezuela en la temporada de 2024.
+Este repositorio contiene todos los materiales necesarios para fabricar «Luka» el robot autodirigido creado por el equipo «Red Machine», que participará en la categoría de Futuros Ingenieros en la WRO de Venezuela en la temporada de 2024.
 
 
-![julian 2024](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/85cb1149-404d-40af-82c5-be7ef2e1914a)
+![luka2](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/100c6890-de82-4203-baa2-43cbf61999da)
 
- 
+# Contenidos
+
+Jump to Miembros-del-equipo-Red-Machine
+
 # Miembros del equipo Red Machine
 -Samuel Jose Galban Franco
 
@@ -13,23 +16,63 @@ Este repositorio contiene todos los materiales necesarios para fabricar «Julian
 
 -Angel Saul Rodriguez Guerra
 
-![red machine team pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/b7eeb760-babc-4338-b1a4-e9a426606d17)
+![red machine 2024](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/d5bb5fc0-b1bd-47a8-9ac3-c190587ae5ae)
 
    
 # Introduccion
 Nos hemos esforzado al máximo para hacer el mejor robot posible. Ha sido un camino muy largo y nos ha ayudado mucho aprender programación, mecánica y diseño. Después de mucho pensar y analizar hemos creado nuestra propia estrategia basada en los componentes electrónicos que teníamos, creyendo fervientemente que tendrá un buen rendimiento en esta edición de la WRO.
 
 # Diseño Mecanico
-El diseño del robot ha sido uno de los mayores problemas a los que nos hemos enfrentado en todas las fases de la competición. Las bases acrilicas que utilizamos en las competiciones anteriores no funcionaron, ya que tenian muchas imperfecciones, provocando que el sistema de traccion y direccion estuviera mal ubicado, asi como una distribucion de pesos realmente mala. A pesar de todo esto, ese chasis nos dio una idea de como diseñar uno nuevo, asi que despues de la competicion nacional del 2023, decidimos hacer un corte con laser a bases acrilicas nuevas. Después de esto, el chasis quedó realmente bien en todos los aspectos. 
-Además, cambiamos las ruedas del robot por unas nuevas que se sujetaran mejor al sistema de dirección, lo que también proporcionó una mejor estética al robot.
+Durante la temporada de 2023, el diseño del robot siempre fue uno de los mayores problemas a los que el equipo se enfrentó, esto durante todas las fases de la competición. Las bases de acrilico que se utilizaron en las primeras competencias no funcionaron, ya que tenian muchas imperfecciones, provocando que el sistema de tracción y dirección estuviera mal ubicado, asi como una distribución realmente mala. A pesar de todo esto, ese chasis nos dió una idea de como diseñar uno nuevo, así que después de la competencia nacional, se usaron nuevas bases de acrílico, esta vez cortadas con láser. Después de esto, el chasis quedó realmente bien en todos los aspectos. 
 
 ![bases de acrilico pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/1ab2bf5b-492d-4d9f-b8cb-7154f9053f9f)
 
-# Estrategia
-En esta parte del proceso, empezamos a hacer del prototipo un robot propiamente dicho, conectando todos los componentes electrónicos y empezamos a codificar para completar el primer reto y empezar a ganar nuestros primeros 30 puntos. Los componentes que utilizamos para completar este reto fueron:
+Además, se cambiaron las ruedas del robot por unas nuevas que se sujetaran mejor al sistema de dirección, lo que también proporcionó una mejor estética al robot.
 
- Arduino Mega 2560: Una placa de desarrollo de código abierto construida con un microcontrolador y señales de entrada y salida, responsable de activar y desactivar determinados componentes.
- 
+Luego de participar en el mundial de Panamá, el equipo decidió hacer cambios importantes a la hora de crear el nuevo prototipo. 
+Entre estos cambios resalta el acercamiento entre las ruedas del sistema de tracción y dirección, con el objetivo de que el radio de giro se mayor, permitiendo hacer giros mas cerrados. Esto ayuda principalmente al desarrollo del desafío de obstáculos, debido a la dificultad del reto, y a la estrategia que el equipo desea usar. 
+
+![luka de lado 2](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/2f49965b-2c4d-478c-abf1-3842ebd0ab83)      ![julian de lado 2024 2](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/c3f7801c-d940-4992-b78f-98beb0f70ac8)  
+
+
+Asimismo, el tamaño del robot se redujo por aproximadamente 5 centímetros, ayudando a que el robot sea mas libre por la pista de juego, y facilitando el cumplimiento de los retos. Para lograr esto se rediseñaron los acrílicos, teniendo los nuevos una estructura completamente distinta al anterior. 
+![acrilicos luka pequeño1](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/93bda588-5d18-4f1c-8973-c6c9f80af70f)
+
+Otro cambio muy importante fue rediseñar el sistema de dirección, el cual fue nuevamente construido con piezas de lego, provenientes del kit de robótica spike prime número 45678. 3 de estas piezas fueron unidas con un par de ruedas para finalizar su construcción. 
+
+![sistema direccion2](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/9d33071c-ba41-47bc-8b42-ef2623d5b0dd)
+
+
+Nuevamente se utilizó el mismo motor y ruedas para la construcción del sistema de tracción. 
+"foto"
+
+
+
+# Diseno de Software
+En esta parte se establece el diseno del Codigo y la explicacion respectiva dentro de el.
+
+Puedes encontrar [Explicacion del Codigo](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md) dandole click al la palabra en azul.
+
+
+
+
+## Subcodigo
+
+```
+//Deteccion de conos (Raspberry pi 5)
+Poner filtrar a la imagen
+Distinguir entre rojo y verde
+Definir su distancia
+Enviar informacion al arduino
+//Movimiento del Robot
+Determinacion del carril
+Identificacion de conos
+Lectura de paredes
+Giros de paredes
+```
+
+
+## Componentes electronicos
 ![arduino mega 2560 pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/1b59a507-53a0-48d4-b9d8-0b8b94bf1d2d)
 
 
@@ -54,7 +97,7 @@ Electric motor:un dispositivo que convierte la energía eléctrica en movimiento
 ![motor pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a74aacac-0276-49b0-abc1-485906c2a775)
 
 
-El Arduino está alimentado por una pila de 9v, que se enciende mediante un interruptor, y es el encargado de alimentar y dar las respectivas señales al servomotor, para que sea capaz de realizar los cruces de forma efectiva con facilidad, además de energizar y recibir las señales. los sensores, como el ultrasonido que envía y recibe las señales para calcular el tiempo respectivo, y con ello, la distancia a un determinado o El Arduino está alimentado por una pila de 9v, que se enciende mediante un interruptor, y es el encargado de alimentar y dar las respectivas señales al servomotor, para que sea capaz de realizar los cruces de forma efectiva con facilidad, además de energizar y recibir las señales. los sensores, como el ultrasonido que esquiva obstáculos, también están conectados por serie al sensor de color, para recibir los valores exactos en RGBC
+El Arduino está alimentado por una batería de 9v, que se enciende mediante un interruptor, y es el encargado de alimentar y dar las respectivas señales al servomotor, para que sea capaz de realizar los cruces de forma efectiva con facilidad, además de energizar y recibir las señales. los sensores, como el ultrasonido que envía y recibe las señales para calcular el tiempo respectivo, y con ello, la distancia a un determinado o El Arduino está alimentado por una pila de 9v, que se enciende mediante un interruptor, y es el encargado de alimentar y dar las respectivas señales al servomotor, para que sea capaz de realizar los cruces de forma efectiva con facilidad, además de energizar y recibir las señales. los sensores, como el ultrasonido que esquiva obstáculos, también están conectados por serie al sensor de color, para recibir los valores exactos en RGBC
 
 Por último, el puente H está conectado y alimentado por una batería de 3,7 v y se enciende con el mismo interruptor que enciende el Arduino.
 El puente H recibe señales del Arduino por lo que recibe señales digitales y analógicas, dándole la capacidad de mover el motor en diferentes direcciones y velocidades. También es el encargado de alimentar la Esp32-cam a través del puerto de 5v.
