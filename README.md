@@ -126,3 +126,23 @@ El Arduino está alimentado por una batería de 9v, que se enciende mediante un 
 
 Por último, el puente H está conectado y alimentado por una batería de 3,7 v y se enciende con el mismo interruptor que enciende el Arduino.
 El puente H recibe señales del Arduino por lo que recibe señales digitales y analógicas, dándole la capacidad de mover el motor en diferentes direcciones y velocidades. También es el encargado de alimentar la Esp32-cam a través del puerto de 5v.
+
+1. Temporada 2023
+    - [Julio del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Julio-del-2023)
+    - [Agosto del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Agosto-del-2023)
+    - [Septiembre del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Septiembre-del-2023)
+    - [Octubre del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Octubre-del-2023)
+2. [Temporada 2024]
+    - [Febrero del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Febrero-del-2024)
+    - [Marzo del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Marzo-del-2024)
+    - [Abril del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Abril-del-2024)
+    - [Mayo del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Mayo-del-2024)
+    - [Junio del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Junio-del-2024)
+3. [Historia de Julian y Luka ]
+    - [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-1.0)
+    - [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-2.0)
+    - [JULIAN 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-3.0)
+    - [JULIAN 4.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-4.0)
+    - [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-5.0)
+    - [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#LUKA-1.0)
+    - [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#LUKA-2.0)
