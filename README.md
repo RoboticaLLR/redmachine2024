@@ -93,8 +93,8 @@ Lectura de paredes
 Giros de paredes
 ```
 
-[!IMPORTANT]
-Cada iteracion de este codigo es de aproximadamente 20ms
+> [!IMPORTANT]
+> Cada iteracion dura aproximadamente 20 ms.
 
 
 ## Componentes electronicos
