@@ -7,7 +7,12 @@ Este repositorio contiene todos los materiales necesarios para fabricar «Luka»
 
 # Contenidos
 
-Jump to Miembros-del-equipo-Red-Machine
+ -  [Miembros del equipo Red Machine](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Miembros-del-equipo-Red-Machine)
+ -  [Introduccion](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Introduccion)
+ -  [Diseño Mecanico](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Diseño-Mecanico)
+  -  [Diseño de Software](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Diseño-de-Software)
+-  [Indice Mecanica](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Indice-Mecanica)
+-  [Historial de equipo](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Historial-del-equipo)
 
 # Miembros del equipo Red Machine
 -Samuel Jose Galban Franco
