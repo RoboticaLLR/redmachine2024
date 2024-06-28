@@ -127,6 +127,18 @@ El Arduino está alimentado por una batería de 9v, que se enciende mediante un 
 Por último, el puente H está conectado y alimentado por una batería de 3,7 v y se enciende con el mismo interruptor que enciende el Arduino.
 El puente H recibe señales del Arduino por lo que recibe señales digitales y analógicas, dándole la capacidad de mover el motor en diferentes direcciones y velocidades. También es el encargado de alimentar la Esp32-cam a través del puerto de 5v.
 
+# Indice Mecanica
+
+Para mas informacion sobre la mecanica creamos un documento donde puedes consultar las especificaciones de las piezas y de los mecanismos del robot
+
+ -  [Motores](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Analisis-del-funcionamiento-de-los-motores)
+ - [Sensores](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Sensores)
+- [Tarjetas controladoras](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Tarjetas-controladoras)
+- [Diagrama de Conexiones](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Diagrama-de-conexiones)
+
+# Historial del equipo
+
+
 1. Temporada 2023
     - [Julio del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Julio-del-2023)
     - [Agosto del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Agosto-del-2023)
