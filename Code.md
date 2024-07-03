@@ -74,3 +74,9 @@ Con los sensores de ultrasonido detectamos donde estan las paredes y al llegar a
 ## Movimiento en funcion a la orientacion
 
 Una vez detectamos la direccion y tenemos conocimiento del carril en el que estamos, retrocedemos y hacemos el movimiento respectivo para quedar en el medio de la pista, mirando de forma perpendicular hacia las paredes.
+
+## Diagramas de flujo
+
+-  [Diagrama reto 1](https://github.com/RoboticaLLR/redmachine2024/blob/main/other)
+-  [Diagrama reto 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/other)
+-  [Diagrama Raspberry pi 5](https://github.com/RoboticaLLR/redmachine2024/blob/main/other)

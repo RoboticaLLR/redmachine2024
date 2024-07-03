@@ -101,6 +101,11 @@ Giros de paredes
 > [!IMPORTANT]
 > Cada iteracion dura aproximadamente 20 ms.
 
+## Diagramas de flujo
+
+-  [Diagrama reto 1](https://github.com/RoboticaLLR/redmachine2024/blob/main/other)
+-  [Diagrama reto 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/other)
+-  [Diagrama Raspberry pi 5](https://github.com/RoboticaLLR/redmachine2024/blob/main/other)
 
 ## Componentes electronicos
 ![arduino mega 2560 pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/1b59a507-53a0-48d4-b9d8-0b8b94bf1d2d)
