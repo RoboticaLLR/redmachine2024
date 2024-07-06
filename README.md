@@ -378,14 +378,14 @@ Para mas informacion sobre la mecanica creamos un documento donde puedes consult
 
  -  [Video reto 1 posibilidad 3](https://www.youtube.com/watch?v=nsoF1sbXq8s)
 
-  [![Alt text](https://img.youtube.com/vi/nsoF1sbXq8s/0.jpg)](https://www.youtube.com/watch?v=nsoF1sbXq8s)
+  [![Alt text](https://img.youtube.com/vi/NqIYlqRbaCE/0.jpg)](https://www.youtube.com/watch?v=NqIYlqRbaCE)
 
- -  [Video reto 1 posibilidad 4](https://www.youtube.com/watch?v=ODPtIqohIa)
+ -  [Video reto 1 posibilidad 4](https://www.youtube.com/watch?v=NqIYlqRbaCE)
 
 
-[![Alt text](https://img.youtube.com/vi/NqIYlqRbaCE/0.jpg)](https://www.youtube.com/watch?v=NqIYlqRbaCE)
+[![Alt text](https://img.youtube.com/vi/gjR0TwZg75E/0.jpg)](https://www.youtube.com/watch?v=gjR0TwZg75E)
 
- -  [Video reto 2](https://www.youtube.com/watch?v=NqIYlqRbaCE)
+ -  [Video reto 2](https://www.youtube.com/watch?v=gjR0TwZg75E)
 
 # Historial del equipo
 
