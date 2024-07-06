@@ -365,8 +365,27 @@ Para mas informacion sobre la mecanica creamos un documento donde puedes consult
 
  -  [Video reto 1 (TODAS LAS POSIBILIDADES)](https://www.youtube.com/watch?v=HS7eLoFSOkU)
 
+[![Alt text](https://img.youtube.com/vi/F0MisXrJzuk/0.jpg)](https://www.youtube.com/watch?v=F0MisXrJzuk)
 
- -  [Video reto 2](https://www.youtube.com/watch?v=HS7eLoFSOkU)
+ -  [Video reto 1 posibilidad 1](https://www.youtube.com/watch?v=F0MisXrJzuk)
+
+ [![Alt text](https://img.youtube.com/vi/ODPtIqohIaE/0.jpg)](https://www.youtube.com/watch?v=ODPtIqohIaE)
+
+ -  [Video reto 1 posibilidad 2](https://www.youtube.com/watch?v=ODPtIqohIaE)
+
+
+  [![Alt text](https://img.youtube.com/vi/nsoF1sbXq8s/0.jpg)](https://www.youtube.com/watch?v=nsoF1sbXq8s)
+
+ -  [Video reto 1 posibilidad 3](https://www.youtube.com/watch?v=nsoF1sbXq8s)
+
+  [![Alt text](https://img.youtube.com/vi/nsoF1sbXq8s/0.jpg)](https://www.youtube.com/watch?v=nsoF1sbXq8s)
+
+ -  [Video reto 1 posibilidad 4](https://www.youtube.com/watch?v=ODPtIqohIa)
+
+
+[![Alt text](https://img.youtube.com/vi/NqIYlqRbaCE/0.jpg)](https://www.youtube.com/watch?v=NqIYlqRbaCE)
+
+ -  [Video reto 2](https://www.youtube.com/watch?v=NqIYlqRbaCE)
 
 # Historial del equipo
 
