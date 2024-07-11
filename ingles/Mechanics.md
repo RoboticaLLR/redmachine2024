@@ -1,8 +1,8 @@
 # Index
- -  [Motors](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Analysis-of-engines-operation)
- - [Sensors](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Sensors)
-- [controller boards](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#COntroller-boards)
-- [Conexions diagram](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Conexions-diagram)
+ -  [Motors](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Mechanics.md#Analysis-of-engines-operation)
+ - [Sensors](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Mechanics.md#Sensors)
+- [controller boards](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Mechanics.md#COntroller-boards)
+- [Conexions diagram](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Mechanics.md#Conexions-diagram)
 
 # Analysis of engines operation
 In the following space, aspects of the operation of the 2 motors of our robot will be shown.

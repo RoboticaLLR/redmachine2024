@@ -1,9 +1,9 @@
 # Diseno de Software
 
 1. Analisis de imagen
-    -  [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Obtencion-de-imagen)
-    -  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Filtro-de-imagen)
-    - [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
+    -  [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Obtencion-de-imagen)
+    -  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Filtro-de-imagen)
+    - [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
     -  [Imagen gris con detalles rojos y verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Imagen-gris-con-detalles-rojos-y-verdes)
     -   [Deteccion de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion-de-color)
     -  [Procesamiento de lugar y distancia de los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Procesamiento-de-distancia)

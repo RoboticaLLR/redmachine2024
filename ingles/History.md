@@ -1,24 +1,24 @@
 # Read Machine history
 
 1. 2023 Season
-    - [July 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#July-2023)
-    - [August 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#August-2023)
-    - [September 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#September-2023)
-    - [October 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#October-2023)
+    - [July 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#July-2023)
+    - [August 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#August-2023)
+    - [September 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#September-2023)
+    - [October 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#October-2023)
 2. 2024 Season
-    - [February 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#February-2024)
-    - [March 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#March-2024)
-    - [April2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#April-2024)
-    - [May 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#May-2024)
-    - [June2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#June-2024)
+    - [February 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#February-2024)
+    - [March 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#March-2024)
+    - [April2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#April-2024)
+    - [May 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#May-2024)
+    - [June2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#June-2024)
 3. Julian´s and Luka´s history 
-    - [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-1.0)
-    - [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-2.0)
-    - [JULIAN 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-3.0)
-    - [JULIAN 4.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-4.0)
-    - [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-5.0)
-    - [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#LUKA-1.0)
-    - [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#LUKA-2.0)
+    - [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-1.0)
+    - [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-2.0)
+    - [JULIAN 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-3.0)
+    - [JULIAN 4.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-4.0)
+    - [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-5.0)
+    - [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#LUKA-1.0)
+    - [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#LUKA-2.0)
     
 ## 2023 Seeason
 

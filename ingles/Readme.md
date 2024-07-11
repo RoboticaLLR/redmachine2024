@@ -7,9 +7,9 @@ This repository contains all the materials necessary to create "Luka", the self-
 
 # Contents
 
- -  [Red Machine members](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Red-Machine-Members)
- -  [Introduction](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Introduction)
- -  [Mechanical design](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Mechanical-Design)
+ -  [Red Machine members](https://github.com/RoboticaLLR/redmachine2024/blob/main/Readme.md#Red-Machine-Members)
+ -  [Introduction](https://github.com/RoboticaLLR/redmachine2024/blob/main/Readme.md#Introduction)
+ -  [Mechanical design](https://github.com/RoboticaLLR/redmachine2024/blob/main/Readme.md#Mechanical-Design)
  -  [Software design](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Software-Design)
  -  [Mechanical Index](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Mechanical-Index)
  -  [Team history](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Team-History)

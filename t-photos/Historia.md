@@ -19,6 +19,7 @@
     - [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-5.0)
     - [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#LUKA-1.0)
     - [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#LUKA-2.0)
+    - [Anexos](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Anexos)
 ## Temporada 2023
 
 ### Julio del 2023
@@ -188,7 +189,24 @@ El equipo logro terminar por completo el informe, y terminó de subir la informa
 
 ### LUKA 2.0
 
-![Segundo Luka ](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/565f334d-1133-470b-ba16-1d1ea5e7b660)
+![Segundo Luka](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/565f334d-1133-470b-ba16-1d1ea5e7b660)
 
 
-##
+## Fotos del equipo 
+
+Foto del equipo
+
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/d8850db3-f985-4b1b-991d-e098817d37a1)
+
+Foto salvando a Julian
+![image](https://github.com/RoboticaLLR/redmachine2024/assets/139584566/3ec721f8-8198-4fdd-9325-5fb393d7bb89)
+
+ ## Anexos 
+
+ Pruebas de la detección de los semáforos
+ 
+ https://youtube.com/shorts/HLt_O2JlURQ?feature=share
+
+ Pruebas de continuidad en Luka
+
+ https://youtube.com/shorts/jUmZjaQ_be8?feature=share

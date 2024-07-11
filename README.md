@@ -65,39 +65,22 @@ De misma manera se hizo un diseno 3D, donde podiamos ver ya analizar de forma ef
 
 
 
-
-# Diseno de Software
-
-1. Analisis de imagen
-    -  [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Obtencion-de-imagen)
-    -  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Filtro-de-imagen)
-    - [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
-    -  [Imagen gris con detalles rojos y verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Imagen-gris-con-detalles-rojos-y-verdes)
-    -   [Deteccion de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion-de-color)
-    -  [Procesamiento de lugar y distancia de los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Procesamiento-de-distancia)
-    - [Envio de data al Arduino Mega 2560](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Envio-de-data-al-Arduino)
-2. [Movimiento del Robot]
-    -   [Inicio del ServoMotor y el motor](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Establecimiento-del-Servo-Motor)
-    -  [Movimiento en funcion a los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-los-conos)
-        - [determinacion del carril 1 o 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Determinacion-del-carril-1-o-2)
-    - [Deteccion de la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion)
-    -  [Movimiento en funcion a la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-la-orientacion)
-    # Diseno de Software
+# Indice
 
 1. Analisis de imagen
-    -  [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Obtencion-de-imagen)
-    -  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Filtro-de-imagen)
-    - [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
-    -  [Imagen gris con detalles rojos y verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Imagen-gris-con-detalles-rojos-y-verdes)
-    -   [Deteccion de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion-de-color)
-    -  [Procesamiento de lugar y distancia de los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Procesamiento-de-distancia)
-    - [Envio de data al Arduino Mega 2560](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Envio-de-data-al-Arduino)
+    -  [Obtencion de imagen](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Obtencion-de-imagen)
+    -  [Filtro de imagen (RGB a HSV)](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Filtro-de-imagen)
+    - [Creacion de las mascaras Rojas y Verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Creacion-de-las-mascaras-Rojas-y-Verdes)
+    -  [Imagen gris con detalles rojos y verdes](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Imagen-gris-con-detalles-rojos-y-verdes)
+    -   [Deteccion de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Deteccion-de-color)
+    -  [Procesamiento de lugar y distancia de los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Procesamiento-de-distancia)
+    - [Envio de data al Arduino Mega 2560](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Envio-de-data-al-Arduino)
 2. [Movimiento del Robot]
-    -   [Inicio del ServoMotor y el motor](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Establecimiento-del-Servo-Motor)
-    -  [Movimiento en funcion a los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-los-conos)
-        - [determinacion del carril 1 o 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Determinacion-del-carril-1-o-2)
-    - [Deteccion de la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Deteccion)
-    -  [Movimiento en funcion a la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movimiento-en-funcion-a-la-orientacion)
+    -   [Inicio del ServoMotor y el motor](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Establecimiento-del-Servo-Motor)
+    -  [Movimiento en funcion a los conos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Movimiento-en-funcion-a-los-conos)
+        - [determinacion del carril 1 o 2](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Determinacion-del-carril-1-o-2)
+    - [Deteccion de la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Deteccion)
+    -  [Movimiento en funcion a la orientacion](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Movimiento-en-funcion-a-la-orientacion)
 
 # Analisis de imagen
 
@@ -355,10 +338,10 @@ Se muestra el diagrama de conexiones para que se aprecie de forma explicita todo
 
 Para mas informacion sobre la mecanica creamos un documento donde puedes consultar las especificaciones de las piezas y de los mecanismos del robot
 
- -  [Motores](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Analisis-del-funcionamiento-de-los-motores)
- - [Sensores](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Sensores)
-- [Tarjetas controladoras](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Tarjetas-controladoras)
-- [Diagrama de Conexiones](https://github.com/RoboticaLLR/redmachine2024/blob/main/Mecanica.md#Diagrama-de-conexiones)
+ -  [Motores](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mecanica.md#Analisis-del-funcionamiento-de-los-motores)
+ - [Sensores](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mecanica.md#Sensores)
+- [Tarjetas controladoras](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mecanica.md#Tarjetas-controladoras)
+- [Diagrama de Conexiones](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mecanica.md#Diagrama-de-conexiones)
 
 # Videos 
 [![Alt text](https://img.youtube.com/vi/HS7eLoFSOkU/0.jpg)](https://www.youtube.com/watch?v=HS7eLoFSOkU)
@@ -391,21 +374,22 @@ Para mas informacion sobre la mecanica creamos un documento donde puedes consult
 
 
 1. Temporada 2023
-    - [Julio del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Julio-del-2023)
-    - [Agosto del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Agosto-del-2023)
-    - [Septiembre del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Septiembre-del-2023)
-    - [Octubre del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Octubre-del-2023)
+    - [Julio del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Julio-del-2023)
+    - [Agosto del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Agosto-del-2023)
+    - [Septiembre del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Septiembre-del-2023)
+    - [Octubre del 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Octubre-del-2023)
 2. [Temporada 2024]
-    - [Febrero del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Febrero-del-2024)
-    - [Marzo del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Marzo-del-2024)
-    - [Abril del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Abril-del-2024)
-    - [Mayo del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Mayo-del-2024)
-    - [Junio del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#Junio-del-2024)
+    - [Febrero del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Febrero-del-2024)
+    - [Marzo del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Marzo-del-2024)
+    - [Abril del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Abril-del-2024)
+    - [Mayo del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Mayo-del-2024)
+    - [Junio del 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Junio-del-2024)
 3. [Historia de Julian y Luka ]
-    - [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-1.0)
-    - [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-2.0)
-    - [JULIAN 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-3.0)
-    - [JULIAN 4.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-4.0)
-    - [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#JULIAN-5.0)
-    - [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#LUKA-1.0)
-    - [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/Historia.md#LUKA-2.0)
+    - [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-1.0)
+    - [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-2.0)
+    - [JULIAN 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-3.0)
+    - [JULIAN 4.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-4.0)
+    - [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-5.0)
+    - [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#LUKA-1.0)
+    - [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#LUKA-2.0)
+    - [Anexos](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Anexos)

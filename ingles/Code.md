@@ -1,19 +1,19 @@
 # Software Design
 
 1. Image analysis
-    -  [Image Processing](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Image-Processing)
-    -  [Image Filter](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Image-Obtention)
-    - [Red and Green Masks creation](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Red-Green-Masks)
-    -  [Gray image](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Gray-Image)
-    -   [Color Detection](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Color-Detection)
-    -  [Distance Processing](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Distance-Processing)
-    - [Data send to Arduino](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Data-send-to-Arduino)
+    -  [Image Processing](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Image-Processing)
+    -  [Image Filter](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Image-Obtention)
+    - [Red and Green Masks creation](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Red-Green-Masks)
+    -  [Gray image](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Gray-Image)
+    -   [Color Detection](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Color-Detection)
+    -  [Distance Processing](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Distance-Processing)
+    - [Data send to Arduino](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Data-send-to-Arduino)
 2. [Robot Movement]
-    -   [Servo Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Servo-Determination)
-    -  [Movemente through Pillars](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movement-around-Pillars)
-        - [Lane Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Lane-Movement)
-    - [Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Orientation)
-    -  [Movement through Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/Code.md#Movement-through-Orientation)
+    -   [Servo Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Servo-Determination)
+    -  [Movemente through Pillars](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Movement-around-Pillars)
+        - [Lane Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Lane-Movement)
+    - [Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Orientation)
+    -  [Movement through Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/Code.md#Movement-through-Orientation)
 
 # Image Processing
 
