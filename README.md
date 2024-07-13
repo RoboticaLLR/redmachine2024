@@ -370,6 +370,10 @@ Para mas informacion sobre la mecanica creamos un documento donde puedes consult
 
  -  [Video reto 2](https://www.youtube.com/watch?v=gjR0TwZg75E)
 
+ [![Alt text](https://img.youtube.com/vi/WY6LcT9w6HU/0.jpg)](https://www.youtube.com/watch?v=WY6LcT9w6HU)
+
+ -  [Video estacionamente](https://www.youtube.com/watch?v=WY6LcT9w6HU)
+
 # Historial del equipo
 
 
