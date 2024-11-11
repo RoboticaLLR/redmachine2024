@@ -1,24 +1,24 @@
 # Read Machine history
 
 1. 2023 Season
-    - [July 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#July-2023)
-    - [August 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#August-2023)
-    - [September 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#September-2023)
-    - [October 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#October-2023)
+    - [July 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#July-2023)
+    - [August 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#August-2023)
+    - [September 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#September-2023)
+    - [October 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#October-2023)
 2. 2024 Season
-    - [February 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#February-2024)
-    - [March 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#March-2024)
-    - [April2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#April-2024)
-    - [May 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#May-2024)
-    - [June2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#June-2024)
+    - [February 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#February-2024)
+    - [March 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#March-2024)
+    - [April2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#April-2024)
+    - [May 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#May-2024)
+    - [June2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#June-2024)
 3. Julian´s and Luka´s history 
-    - [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-1.0)
-    - [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-2.0)
-    - [JULIAN 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-3.0)
-    - [JULIAN 4.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-4.0)
-    - [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#JULIAN-5.0)
-    - [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#LUKA-1.0)
-    - [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/ingles/History.md#LUKA-2.0)
+    - [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-1.0)
+    - [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-2.0)
+    - [JULIAN 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-3.0)
+    - [JULIAN 4.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-4.0)
+    - [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-5.0)
+    - [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#LUKA-1.0)
+    - [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#LUKA-2.0)
     
 ## 2023 Seeason
 
@@ -28,7 +28,7 @@ After participating in a regional robotics competition, the team decided to part
 
 ![1ra julio](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/66f7c8f1-b10c-4261-86b3-32c87bcd3b81)
 
-The following days we began to study what could be the first model of the chassis and investigated various ways to solve what would be the first problems that arose, which were how the steering system would be designed and what engine would be used to achieve the speed and torque needed.
+The following days the team began to study what could be the first model of the chassis and investigated various ways to solve what would be the first problems that arose, which were how the steering system would be designed and what engine would be used to achieve the speed and torque needed.
 
 ![2da julio](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/3c73dc50-b3c4-4f2d-a4ad-92f87ee21a87)
 
@@ -36,7 +36,7 @@ Next, the team began to look for engines that could be used, disassembling toys,
 
 ![3rajulio](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/dbdfbd4e-9594-40f0-b34e-6d0528d7b328) ![4julio](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/32158385-5185-4d74-b19a-fd5dca851590)
 
-Subsequently, the work team proceeded to assemble both systems, and the different devices that the robot would need on acrylic bases, and the first prototype of what would be the chassis was completed, and the programming area could continue.
+Subsequently, the team proceeded to assemble both systems, and the different devices that the robot would need on acrylic bases, and the first prototype of what would be the chassis was completed, and the programming area could continue.
 
 ![5julio](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/5d1d2414-1c38-4973-b7b8-8c7c55b3b648)
 
@@ -159,6 +159,24 @@ The team managed to completely finish the report, and finished uploading the inf
 
 ![JUN2](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/ec3a2df2-7dff-4fec-b924-b2d1eb7ead83) ![JUN3](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/cd6712cd-9323-48ea-98b8-636553662499)
 
+
+## October 2024
+
+After winning the national competition, the team got to form part of the delegation that will represent Venezuela on the world robot olympiad internacional final, on izmir, Türkiye. For this, the team needed a lot of preparation and practice, so they started to work on Luka. 
+On the first two weeks of preparation the team started to make structural changes on Luka, looking to make the robot smaller. To accomplish this, both the traction and direction system where moved. The direction system got turned 180 degrees for the wheels to be more on the front, and the motor of the traction system changed it’s position to be vertical, using less horizontal space. After this, there were around 5cm of dead space on the robot’s back that were cutted, finishing this process with the robot measuring 18cm. 
+
+The third week of work was the start point of programming. After having problems with the raspberry pi supply power, the team decided to search for a new way of detecting the traffic signs. After searching for a solution, the team decided to use a pixy cam because of it using less space, weighting less, and been able to power with the arduino. The team also realized that a giroscope would be needed, specially on the second challenge, so they started to use the HMS5883L magnetometer. 
+
+The pixy cam resulted as an exellent choice, but the magnetometer was not, so the team started to find a new one, picking MPU6050. After a lot of practice with the accelerometer the team got to use it on the full turns, but because of large error margin the could not trust it to take the car to turn at exactly 90 degrees. 
+
+Because of this the team used the fourth week to design a new strategy. On this new strategy the robot caribrated with the exterior walls. 
+
+
+## November 2024
+
+The first week of november was purely preparation and practice. On this week the robot got to do two consistent laps on the second challenge, but the team was still worried about the giroscope problem. 
+
+Because of this, on the second week of november the team started to practice with a new giroscope, the BNO055. This sensor is an hibridation of a magnetometer and an accelerometer, allowing it to give an almost exact data. 
 
 
 ## Julian´s and Luka´s history 
