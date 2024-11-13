@@ -11,6 +11,8 @@
     - [April2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#April-2024)
     - [May 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#May-2024)
     - [June2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#June-2024)
+    - [October2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#October-2024)
+    - [November2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#November-2024)
 3. Julian´s and Luka´s history 
     - [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-1.0)
     - [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-2.0)
@@ -19,6 +21,7 @@
     - [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-5.0)
     - [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#LUKA-1.0)
     - [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#LUKA-2.0)
+    - [LUKA 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#LUKA-3.0)
     
 ## 2023 Seeason
 
@@ -160,16 +163,18 @@ The team managed to completely finish the report, and finished uploading the inf
 ![JUN2](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/ec3a2df2-7dff-4fec-b924-b2d1eb7ead83) ![JUN3](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/cd6712cd-9323-48ea-98b8-636553662499)
 
 
-## October 2024
+### October 2024
 
 After winning the national competition, the team got to form part of the delegation that will represent Venezuela on the world robot olympiad internacional final, on izmir, Türkiye. For this, the team needed a lot of preparation and practice, so they started to work on Luka. 
 
 On the first two weeks of preparation the team started to make structural changes on Luka, looking to make the robot smaller. To accomplish this, both the traction and direction system where moved. The direction system got turned 180 degrees for the wheels to be more on the front, and the motor of the traction system changed it’s position to be vertical, using less horizontal space. After this, there were around 5cm of dead space on the robot’s back that were cutted, finishing this process with the robot measuring 18cm. 
+
 ![motor comparation](https://github.com/user-attachments/assets/00b11495-df00-430e-b246-063aeed43f5f)
 ![Traction comparation](https://github.com/user-attachments/assets/34566443-f982-43b6-9cad-7033e43392aa)
 
 
 The third week of work was the start point of programming. After having problems with the raspberry pi supply power, the team decided to search for a new way of detecting the traffic signs. After searching for a solution, the team decided to use a pixy cam because of it using less space, weighting less, and been able to power with the arduino. The team also realized that a giroscope would be needed, specially on the second challenge, so they started to use the HMS5883L magnetometer. 
+
 ![pixy2 1](https://github.com/user-attachments/assets/0d5ba0ac-d5ba-47c5-957f-c5cc7350b439)
 ![HMC5883L](https://github.com/user-attachments/assets/fdfc00e6-27a0-4843-81a8-c86973bba489)
 
@@ -183,14 +188,16 @@ The pixy cam resulted as an exellent choice, but the magnetometer was not, so th
 Because of this the team used the fourth week to design a new strategy. On this new strategy the robot caribrated with the exterior walls. 
 
 
-## November 2024
+### November 2024
 
 The first week of november was purely preparation and practice. On this week the robot got to do two consistent laps on the second challenge, but the team was still worried about the giroscope problem. 
+
 ![ramdom practice](https://github.com/user-attachments/assets/0c77eda4-712e-47df-84f0-b20429e7cd49)
 
 
 
 Because of this, on the second week of november the team started to practice with a new giroscope, the BNO055. This sensor is an hibridation of a magnetometer and an accelerometer, allowing it to give an almost exact data. 
+
 ![BNO055](https://github.com/user-attachments/assets/9bccdb43-f634-4808-92c7-ae4d567bc054)
 
 

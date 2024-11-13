@@ -8,9 +8,9 @@ This repository contains all the materials necessary to create "Luka", the self-
 
 # Contents
 
- -  [Red Machine members](https://github.com/RoboticaLLR/redmachine2024/blob/main/Readme.md#Red-Machine-Members)
- -  [Introduction](https://github.com/RoboticaLLR/redmachine2024/blob/main/Readme.md#Introduction)
- -  [Mechanical design](https://github.com/RoboticaLLR/redmachine2024/blob/main/Readme.md#Mechanical-Design)
+ -  [Red Machine members](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Red-Machine-Members)
+ -  [Introduction](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Introduction)
+ -  [Mechanical design](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Mechanical-Design)
  -  [Software design](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Software-Design)
  -  [Mechanical Index](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Mechanical-Index)
  -  [Team history](https://github.com/RoboticaLLR/redmachine2024/blob/main/README.md#Team-History)
@@ -135,10 +135,12 @@ The H-bridge receives signals from the Arduino that indacates to move the motor 
 
 # Luka Performance Videos 
  - [First challenge (ALL POSIBILITIES)](https://www.youtube.com/watch?v=auAgh7E2WA8)
+
 [![image](https://github.com/user-attachments/assets/ed1c0d5b-dab7-4e8b-98aa-dfcefc9b1e91)](https://www.youtube.com/watch?v=auAgh7E2WA8)
  
 
  - [Second challenge practice](https://www.youtube.com/watch?v=cjjnRDXaDAU)
+
 [![image](https://github.com/user-attachments/assets/b4dc474c-5cb7-4fe4-aece-13e8c19d635f)](https://www.youtube.com/watch?v=cjjnRDXaDAU)
 
 

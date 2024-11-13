@@ -3,8 +3,8 @@
 
 1. Image analysis
     -  [Image Processing](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Image-Processing)
-    -  [Color detection](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md##Color-detection)
-    - [Programming](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md##Programming)
+    -  [Color detection](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Color-detection)
+    - [Programming](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Programming)
 
 2. Robot Movement
     - [Servo Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Servo-Determination)
