@@ -1,7 +1,7 @@
 # Index
  -  [Motors](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Analysis-of-engines-operation)
  - [Sensors](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Sensors)
- -[Camera](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Camera)
+ - [Camera](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Camera)
  - [controller boards](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Controller-boards)
  - [Robot power](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Robot-power)
  - [Conexions diagram](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Conexions-diagram)
@@ -51,9 +51,11 @@ In the following space, aspects of the operation of the 2 motors of our robot wi
 ![Screenshot 2024-11-08 103852](https://github.com/user-attachments/assets/43367d50-6ccf-498b-9c06-c9612c199d0e)
 
 
-![WhatsApp Image 2024-06-27 at 16 12 18_2be56267](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/bc2aaa2e-3bf6-4cc9-9203-6ef733979276)
+![foto sistema direccion 2](https://github.com/user-attachments/assets/d22ed9c8-2579-46ad-96a0-f00472432b56)
 
-![WhatsApp Image 2024-06-27 at 16 12 14_21584d16](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/6c6a6630-409f-4073-a032-47328d36d9dd)
+
+![foto sistema direccion  1](https://github.com/user-attachments/assets/fb4946ed-f055-4171-9542-48f1bef775e9)
+
 
 
 - Operating voltage: From 4.8V to 7.4V. On the robot, the servo runs on 5V. 
@@ -148,8 +150,17 @@ The BNO055 can output the following sensor data:
 - Gravity Vector (100Hz): Three axis of gravitational acceleration (minus any movement) in m/s^2
 
  
+
+# Camera
+Luka uses one camera to detect the color of the traffic signs. This is the pixy2. 
+
+![pixy2.1](https://github.com/user-attachments/assets/46298b4d-2184-4b40-9b81-577219ed9214)
+
+The pixy2 works at 60 fps, and is able to detect objects, lines and colors. On luka the main objetive of the camera is to detect colors (red and green). 
+its connected to the arduino with an IDC 2 ICSP Arduino cable that goes into the arduino ICSP pins, wich provides all the connections needed to power and communicate with the pixy. 
+
 # Controller boards
-Luka uses two controller boards: An Arduino Mega 2560 and a Raspberry Pi 5. The Raspberry is in charge of doing the entire process of detecting obstacles during the second challenge, and sending certain signals to the Arduino, which is in charge of controlling the actuators. , sensors, and in itself the entire movement of the robot.
+Luka uses a single controller boards: an Arduino Mega 2560. The Arduino, which is in charge of controlling the actuators, the sensors, and the entire movement of the robot.
 
 ## Arduino mega 2560
 
