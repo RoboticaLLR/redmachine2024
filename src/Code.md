@@ -12,23 +12,24 @@
     - [Lane Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Lane-Movement)
     - [Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Orientation)
     -  [Movement through Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Movement-through-Orientation)
-    General function
-Servo determination
-Orientation
-Gyroscope Sideturns
-First Challenge
-Correction
-First Challenge parking
-Obstacle Challenge 
-Detection of Pillars
-Movement through Orientation
-Pillar avoidment First Lap
-Post-first sideturn
-Pillar storage
-Second and Third Lap Strategy
-Next Pillar
-Sideturns 
-Parking Obstacle Challenge
+    - [Servo Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Servo-Determination)
+    - [Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Orientation)
+    - [Gyroscope Sideturns](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Gyroscope-Sideturns)
+    - [First Challenge](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#First-Challenge)
+    - [Correction](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Correction)
+    - [First Challenge parking](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#First-Challenge-parking)
+    - [Obstacle Challenge](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Obstacle-Challenge)
+    - [Detection of Pillars](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Detection-of-Pillars)
+    - [Movement through Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Movement-through-Orientation)
+    - [Pillar avoidment First Lap](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Pillar-avoidment-First-Lap)
+    - [Post-first sideturn](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Post-first-sideturn)
+    - [Pillar storage](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Pillar-storage)
+    - [Second and Third Lap Strategy](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Second-and-Third-Lap-Strategy)
+    - [Next Pillar](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Next-Pillar)
+    - [Sideturns](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Sideturns)
+    - [Parking Obstacle Challenge](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Parking-Obstacle-Challenge)
+
+
 
 
 # Image Processing
@@ -109,7 +110,7 @@ The gyroscope is essencial on the sideturns part, we use a gy-97 BNO055 and a th
 How we implemented in the code was in order for 6 functions. There are Girarizq90, Girarder90, iraizq, irader, iraizq2, irader2. These functions are intended to make both 90 degrees sideturns, and return to the way its supposed the robot to face. These works by establishing a variable "angulof" that works as the expected angle. Then a loop is responsible to check if it its near to that angle and declared as a correct orientation.
 
 All this functions can be seen on 
-- [Gyroscope Functions](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Pixy.ino)
+- [Gyroscope Functions](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/GyroscopeFunctions)
 
 # First Challenge
 
@@ -134,7 +135,7 @@ This Correction works by the 2 ultrasonic sensor on both sides of the robot. Whe
         }
 
 This part of the code can also be found on 
-- [Correction](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Pixy.ino)
+- [Correction](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Correction.ino)
 
 ## First Challenge parking
 
@@ -189,6 +190,8 @@ int numBlocks = pixy.ccc.getBlocks();
   }
 
 ```
+It can also be seen at
+- [Pillar Detection](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Pillar-Detection.ino)
 
 > [!IMPORTANT]
 > It can still be affected by other objects if theres any pillars or havent detected anything.
@@ -206,7 +209,7 @@ Once we detect the direction and are aware of the lane we are in, we make a pre-
     After every sideturn each variable such as cono1 and cono2 and carril are reestablished to zero and we add 1 to "giros" and "vuelta". All posible sideturns are located at "Sideturns first lap" link.
 
 
-- [Sideturns first lap](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Pixy.ino)
+- [Sideturns first lap](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Sideturns-First-Lap.ino)
 
 ## Pillar Avoidment First Lap
 
@@ -220,8 +223,8 @@ How the robot avoids the pillars is by avoiding one or two maximum pillars. This
 > [!TIP]
 >   Movement is made by "esquivarconos" and the storage of the pillars is by "contarconos"
 
-- [Esquivarconos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Pixy.ino)
-- [Contarconos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Pixy.ino)
+- [Esquivarconos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Esquivarconos.ino)
+- [Contarconos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Contarconos.ino)
 
 ## Post-first sideturn
 
@@ -230,23 +233,11 @@ The robot detects and evade every pillar using the same strategy, this time it h
     At the last part of the path the robots reduces all its moves due to the posibility to crash against the parking lot 
 > [!TIP]This part of the code uses the functions "cruzar" and "esquivarconos"
 
-- [Cruzar](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Pixy.ino)
-- [Esquivarconos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Pixy.ino)
+- [Cruzar](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Cruzar.ino)
+- [Esquivarconos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Esquivarconos.ino)
 
 ## Pillar storage
-General function
-Servo determination
-Orientation
-Gyroscope Sideturns
-First Challenge
-Correction
-First Challenge parking
-Obstacle Challenge 
-Detection of Pillars
-Movement through Orientation
-Pillar avoidment First Lap
-Post-first sideturn
-Pillar storage
+
 
 Every time we detect a pillar we store them on a group of variables depending on the part of the track it is and if its the second or the first pillar it detects. Thats why after the first lap we dont have any need to use the camera or to make very long sideturns
 > [!TIP] The way we separated is: The first number means the part of the track, the second number means if it either goes first or second on the track. Example Cono12 (first lane, second pillar)
@@ -261,7 +252,7 @@ A very important part for the Second and Third lap Strategy is the first pillar 
 
 It works by defining it what part of the track the robot is, and finding the next code with the variables that store them. You can also check the function at:
 
-- [Proxicono](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Pixy.ino)
+- [Proxicono](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Proxicono.ino)
 
 ## Sideturns
 
@@ -278,7 +269,8 @@ Once we completed the first lap, the Sideturns only require the Gyroscope and on
 
 
 > [!NOTE]
-> This  simple change saves us around 30 seconds per lap, this way we get enough time to make the entire challenge
+> This  simple change saves us around 30 seconds per lap, this way we get enough time to make the entire challenge4
+- [Sideturns Post First Lap](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Sideturns-Post-First-Lap.ino)
 
 ## Parking Obstacle Challenge
 
@@ -293,6 +285,8 @@ As we know the robot will always be on an exact lane, we can assume it will neve
     digitalWrite(2,0);
     delay(10000000);
     }
+
+- [Parking Obstacle Challenge](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Parking-Obstacle-Challenge.ino)
 
 
 > [!IMPORTANT]
