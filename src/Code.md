@@ -7,11 +7,6 @@
     - [Programming](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md##Programming)
 
 2. Robot Movement
-    -   [Servo Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Servo-Determination)
-    -  [Movemente through Pillars](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Movement-around-Pillars)
-    - [Lane Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Lane-Movement)
-    - [Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Orientation)
-    -  [Movement through Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Movement-through-Orientation)
     - [Servo Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Servo-Determination)
     - [Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Orientation)
     - [Gyroscope Sideturns](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Gyroscope-Sideturns)
